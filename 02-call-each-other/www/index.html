@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>カウンター</title>
+</head>
+<body>
+<button onclick="window.countDown()">DOWN</button>
+<span id="counter"></span>
+<button onclick="window.countUp()">UP</button>
+<script>
+    window.onload = function () {
+        document.getElementById("counter").textContent = window.getCount()
+    }
+
+    function rerender() {
+        document.getElementById("counter").textContent = window.getCount()
+    }
+</script>
+</body>
+</html>
