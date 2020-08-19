@@ -3,3 +3,5 @@
 *.iml
 
 **/dll
+*.dll
+*.exe
