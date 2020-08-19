@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.head {
+    height: auto;
+    width: 10vw;
+    border: lightgray solid 1px;
+    background-color: azure;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    height: auto;
+    width: 80vw;
+    border: lightgray solid 1px;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body > * {
+    width: 100%;
+}
+
+input, textarea {
+    padding: 0.5em;
+}

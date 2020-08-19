@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="head"><label for="input-type-text">テキスト入力</label></div>
+    <div class="body"><input id="input-type-text" type="text"></div>
+</div>
+<div class="row">
+    <div class="head"><label for="input-type-password">パスワード</label></div>
+    <div class="body"><input id="input-type-password" type="password"></div>
+</div>
+<div class="row">
+    <div class="head"><label for="textarea">複数行テキスト入力</label></div>
+    <div class="body"><textarea id="textarea" rows="3"></textarea></div>
+</div>
+<div class="row">
+    <div class="head">ラジオボタン</div>
+    <div class="body">
+        <label><input type="radio" name="radio"> リンゴ</label>
+        <label><input type="radio" name="radio"> ミカン</label>
+        <label><input type="radio" name="radio"> ブドウ</label>
+    </div>
+</div>
+<div class="row">
+    <div class="head">チェックボックス</div>
+    <div class="body">
+        <label><input type="checkbox"> 現物</label>
+        <label><input type="checkbox"> 信用</label>
+        <label><input type="checkbox"> 先物</label>
+    </div>
+</div>
+<div class="row">
+    <div class="head"><label for="select-box">セレクトボックス</label></div>
+    <div class="body">
+        <select id="select-box">
+            <option>エントリー</option>
+            <option>エグジット</option>
+            <option>キャンセル</option>
+        </select>
+    </div>
+</div>
+<div class="row">
+    <div class="head">デスクトップ通知</div>
+    <div class="body">
+        <button onclick="notifyMe()">デスクトップ通知</button>
+    </div>
+</div>
+<div class="row">
+    <div class="head">アラート</div>
+    <div class="body">
+        <button onclick="alert('あらーと')">アラート</button>
+    </div>
+</div>
+</body>
+</html>
